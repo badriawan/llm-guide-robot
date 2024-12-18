@@ -1,1 +1,6 @@
 *__pycache__
+/src/llm_config
+/build/
+/install/
+/log/
+README.md
