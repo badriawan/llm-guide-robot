@@ -44,11 +44,12 @@ To integrate the framework with your own robot, modify the `llm_robot` and `llm_
    ```
 
 5. Run Nav2 GPT:
+   Don't forget to change the .env path in load_dotenv(dotenv_path="/home/badri/nav2_gpt/.env")
    ```bash
    ros2 run ros2ai Nav2Chatgpt
    ```
 
-6. Alternatively, test another Nav2 configuration:
+7. Alternatively, test another Nav2 configuration:
    ```bash
    ros2 launch navigation navigation.launch.py
    ```
